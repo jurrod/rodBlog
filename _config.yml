@@ -14,6 +14,13 @@ title:		           "rodBlog"
 description:	       "a blog"
 author:              "Jarrod Masarik"
 
+# template colors, used site-wide via CSS !
+colors:
+  black:  '#111111'
+  white:  '#f8f8f8'
+  purple: '#c869bf'
+  blue:   '#ff82cb'
+
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
