@@ -1,4 +1,4 @@
-# this is jarrod masarik's fucking code, take it at ur own risk cause its probably shit anyways Rofl
+# this is jarrod masarik's  code, take it at ur own risk cause its probably shit anyways Rofl
 # anyways, lets import the OS
 # we are trying to rename files for auto-scripted posting of images i take, and what not
 # might use openAI a few times moving forward...anyways..
