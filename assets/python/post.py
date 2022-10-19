@@ -7,6 +7,13 @@ import sys # can also use this to get command line arguments !
 import os
 from datetime import date
 
+# IMPORT NOTE FOR SYS COMMAND LINE PARSING!
+# |
+# |
+# V
+# sys.argv[] = ['file.py', 'str',',str',str'',...] type(sys.arv) is 'list'
+# thank you.
+
 # we need to get the data in a neat format! (YYYY-MM-DD)
 currDate = date.today()
 #print(currDate) # this is just a check
@@ -20,7 +27,7 @@ outFileName = ""+(str(currDate)+"-"+titlePost+".md")
 #print(outFileName)
 
 # parse our directory 
-images = os.listdir("../assets/img") # 1-D array containg fileNAMES! (not file objects, different thing entirely!)
+images = os.listdir("../img") # 1-D array containg fileNAMES! (not file objects, different thing entirely!)
 print("")
 i = 0
 for i in range(0, len(images)):
@@ -43,6 +50,16 @@ image: """+str(currImage)+"""
 ---
 
 """
+# test
+# m.factorial(520)
+bigNum = 80658175170943878571660636856403766975289505440883277824000000000000
+
+# test
+def factorial(n):
+    if n <= 2:
+        return n
+    else:
+        return( n - 1 )
 
 # final file format (needs output streamed to markdown(.MD) file right QUICK!)
 # "YYYY-MM-DD-[BLOG_POST_TITLE].md"

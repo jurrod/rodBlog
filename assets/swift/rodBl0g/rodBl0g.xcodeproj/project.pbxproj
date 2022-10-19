@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		D276C3DA28FD9D32006270B2 /* rodBl0gApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C3D928FD9D32006270B2 /* rodBl0gApp.swift */; };
 		D276C3DC28FD9D32006270B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C3DB28FD9D32006270B2 /* ContentView.swift */; };
-		D276C3DE28FD9D34006270B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276C3DD28FD9D34006270B2 /* Assets.xcassets */; };
 		D276C3E128FD9D34006270B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276C3E028FD9D34006270B2 /* Preview Assets.xcassets */; };
 		D276C3EB28FD9D34006270B2 /* rodBl0gTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C3EA28FD9D34006270B2 /* rodBl0gTests.swift */; };
 		D276C3F528FD9D34006270B2 /* rodBl0gUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C3F428FD9D34006270B2 /* rodBl0gUITests.swift */; };
 		D276C3F728FD9D34006270B2 /* rodBl0gUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C3F628FD9D34006270B2 /* rodBl0gUITestsLaunchTests.swift */; };
+		D276C40428FDA30F006270B2 /* rodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C40328FDA30F006270B2 /* rodView.swift */; };
+		D276C40628FDA3C6006270B2 /* rodViewNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D276C40528FDA3C6006270B2 /* rodViewNavigationDelegate.swift */; };
+		D276C40928FDA6FF006270B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D276C40828FDA6FF006270B2 /* Assets.xcassets */; };
+		D2848D1728FDAB6A0077C574 /* rodLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2848D1628FDAB6A0077C574 /* rodLaunch.storyboard */; };
+		D2848D1A28FDADA70077C574 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2848D1928FDADA70077C574 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +41,18 @@
 		D276C3D628FD9D32006270B2 /* rodBl0g.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rodBl0g.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D276C3D928FD9D32006270B2 /* rodBl0gApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodBl0gApp.swift; sourceTree = "<group>"; };
 		D276C3DB28FD9D32006270B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D276C3DD28FD9D34006270B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D276C3E028FD9D34006270B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D276C3E628FD9D34006270B2 /* rodBl0gTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rodBl0gTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D276C3EA28FD9D34006270B2 /* rodBl0gTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodBl0gTests.swift; sourceTree = "<group>"; };
 		D276C3F028FD9D34006270B2 /* rodBl0gUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rodBl0gUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D276C3F428FD9D34006270B2 /* rodBl0gUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodBl0gUITests.swift; sourceTree = "<group>"; };
 		D276C3F628FD9D34006270B2 /* rodBl0gUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodBl0gUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D276C40328FDA30F006270B2 /* rodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodView.swift; sourceTree = "<group>"; };
+		D276C40528FDA3C6006270B2 /* rodViewNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rodViewNavigationDelegate.swift; sourceTree = "<group>"; };
+		D276C40828FDA6FF006270B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2848D1528FDAB1F0077C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2848D1628FDAB6A0077C574 /* rodLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = rodLaunch.storyboard; sourceTree = "<group>"; };
+		D2848D1928FDADA70077C574 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +103,14 @@
 		D276C3D828FD9D32006270B2 /* rodBl0g */ = {
 			isa = PBXGroup;
 			children = (
+				D2848D1528FDAB1F0077C574 /* Info.plist */,
 				D276C3D928FD9D32006270B2 /* rodBl0gApp.swift */,
+				D276C40528FDA3C6006270B2 /* rodViewNavigationDelegate.swift */,
+				D2848D1628FDAB6A0077C574 /* rodLaunch.storyboard */,
+				D276C40828FDA6FF006270B2 /* Assets.xcassets */,
+				D2848D1928FDADA70077C574 /* Images.xcassets */,
+				D276C40328FDA30F006270B2 /* rodView.swift */,
 				D276C3DB28FD9D32006270B2 /* ContentView.swift */,
-				D276C3DD28FD9D34006270B2 /* Assets.xcassets */,
 				D276C3DF28FD9D34006270B2 /* Preview Content */,
 			);
 			path = rodBl0g;
@@ -231,8 +245,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D276C40928FDA6FF006270B2 /* Assets.xcassets in Resources */,
+				D2848D1A28FDADA70077C574 /* Images.xcassets in Resources */,
 				D276C3E128FD9D34006270B2 /* Preview Assets.xcassets in Resources */,
-				D276C3DE28FD9D34006270B2 /* Assets.xcassets in Resources */,
+				D2848D1728FDAB6A0077C574 /* rodLaunch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D276C3DC28FD9D32006270B2 /* ContentView.swift in Sources */,
+				D276C40628FDA3C6006270B2 /* rodViewNavigationDelegate.swift in Sources */,
 				D276C3DA28FD9D32006270B2 /* rodBl0gApp.swift in Sources */,
+				D276C40428FDA30F006270B2 /* rodView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,17 +430,19 @@
 		D276C3FB28FD9D34006270B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = rodIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rodBl0g/Preview Content\"";
 				DEVELOPMENT_TEAM = 523DPANPM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rodBl0g/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = rodLaunch.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,17 +461,19 @@
 		D276C3FC28FD9D34006270B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = rodIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rodBl0g/Preview Content\"";
 				DEVELOPMENT_TEAM = 523DPANPM6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = rodBl0g/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = rodLaunch.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
