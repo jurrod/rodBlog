@@ -3,4 +3,5 @@ layout: default
 title: polaroid
 permalink: /polaroid
 ---
-![titleImage](../assets/png/rodPolaroid.png "polarod")
+<!-- add our super special image!-->
+<img src="../assets/png/rodPolaroid.png" alt="rodTitle" style="max-width:200px;">
