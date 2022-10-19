@@ -23,7 +23,7 @@ currDate = date.today()
 titlePost = input("Please enter the title of today's post: ")
 
 # lets make our fileName
-outFileName = ""+(str(currDate)+"-"+titlePost+".md")
+outFileName = "../../_posts/"+(str(currDate)+"-"+titlePost+".md")
 #print(outFileName)
 
 # parse our directory 
