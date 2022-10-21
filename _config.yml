@@ -1,0 +1,26 @@
+# Site Build Settings
+
+# jekyll-paginate configuration
+paginate:            6
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:		           "rodBlog"
+description:	       " "
+author:              "Jarrod Masarik"
+
+# template colors, used site-wide via CSS !
+colors:
+  black:  '#111111'
+  white:  '#f8f8f8'
+  purple: '#c869bf'
+  blue:   '#ff82cb'
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
