@@ -1,2 +1,0 @@
-# Jarrod Masarik
-import sys
