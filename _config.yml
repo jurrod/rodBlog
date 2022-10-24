@@ -12,7 +12,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "rodBlog"
 description:	       " "
-author:              "Jarrod Masarik"
+author:              "rod"
 
 # template colors, used site-wide via CSS !
 colors:

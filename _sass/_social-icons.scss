@@ -13,6 +13,10 @@
   padding: 5px;
   @include social-media-icon($envelope-color, $icon-transition-time);
 }
+.fa-spotify {
+  padding: 5px;
+  @include social-media-icon(#05980a, $icon-transition-time);
+}
 
 .fa-twitter {
   padding: 5px;

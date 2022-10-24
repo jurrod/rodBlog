@@ -1,7 +1,7 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'r o d'
+  disqus_shortname: 'r_od'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-112060364-2'
@@ -9,15 +9,17 @@ google-ID: 'UA-112060364-2'
 menu:
 # - {name: 'theBlog',       url: 'sample-posts'}
 # - {name: 'About',              url: 'about'}
-- {name: 'Contact',            url: 'contact'}
+#- {name: 'Contact',            url: 'contact'}
 - {name: 'pol_roid',             url: 'polaroid'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 #- {icon: 'twitter', link:    'https://twitter.com/jarrodmasarik'}
 #- {icon: 'instagram', link:  'https://instagram.com/jarrod.masarik'}
-- {icon: 'envelope', link:   'mailto:jemasarik04@gmail.com'}
-
+# - {icon: 'envelope', link:   'mailto:jemasarik04@gmail.com'}
+- {icon: 'linkedin', link:  'https://www.linkedin.com/in/jarrod-masarik-362372220/'}
+- {icon: 'github', link:    'https://www.github.com/jurrod'}
+- {icon: 'spotify', link:    'https://open.spotify.com/user/jurrod2001'}
 
 # Customize site text
 pagination:

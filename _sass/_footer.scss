@@ -1,29 +1,40 @@
+@font-face {
+  font-family: rodIndie;
+  src: url("/assets/font/IndieFlower-Regular.ttf");
+}
 .footer {
-  background: #ffb8e1;
+  background: #90909060;
   color: $brand-color;
   text-align: center;
   min-height: 56px;
   line-height: 45px;
   width: $container-width;
+  margin: 10px auto 10px;
 }
 .footer a {
-  color: $brand-color;
-  padding: 0px 10px 0px;
+  color: #ffffff;
+  padding: 0px 3px 0px;
   text-decoration: none;
 }
 @media (max-width: $container-width) {
   .footer {
-    background: #ffffff60;
+    background: #90909060;
     color: $brand-color;
     text-align: center;
     min-height: 56px;
     line-height: 45px;
     width: 95vw;
-  }
+  }  
 }
 .footer-description {
-  display: block;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
-  font-size:0.8rem;
+  display: inline;
+  color: #ffffff;
+  font-size:1rem;
+  font-family: $base-font-family;
+}
+.footer-description img {
+  min-height: 36px;
+  line-height: 45px;
+  height: 15vh;
+  width: 25vw;
 }

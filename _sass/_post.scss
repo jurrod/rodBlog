@@ -1,3 +1,7 @@
+@font-face {
+  font-family: rodIndie;
+  src: url("/assets/font/IndieFlower-Regular.ttf");
+}
 .post-content {
   width: 600px;
   display: block;
@@ -14,6 +18,8 @@
   margin: 5px auto 25px;
   display: block;
   max-width: 600px;
+  outline-color: #ffffff70;
+  outline-style: dotted;
 }
 @media (max-width: $container-width) {
   .post-content {
@@ -82,7 +88,7 @@
 .related-title {
   float: right;
   padding-bottom: .5rem;
-  font-family: $base-font-family;
+  font-family: $body-font-family;
 }
 @media (max-width: $container-width) {
   .related-thumbnail{

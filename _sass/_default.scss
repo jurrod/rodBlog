@@ -1,7 +1,10 @@
 /*
   Site container
 */
-
+@font-face {
+  font-family: rodIndie;
+  src: url("/assets/font/IndieFlower-Regular.ttf");
+}
 .container {
   width: $container-width;
   margin-left: auto;

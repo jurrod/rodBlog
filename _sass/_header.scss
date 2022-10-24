@@ -1,10 +1,18 @@
+@font-face {
+  font-family: rodIndie;
+  src: url("/assets/font/IndieFlower-Regular.ttf");
+}
+
 .site-header {
   min-height: 56px;
   width: $container-width;
   position: fixed;
-  background-color: #ffffff60;
+  background-color: #90909060;
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
+  font-family: 'rodIndie';
+  float: left;
+  margin: 10px auto 10px; // top..bottom..right..left
 }
 @media (max-width: $container-width) {
   
@@ -29,6 +37,9 @@
   margin-top: 0;
   padding-left: 10px;
   float: left;
+}
+.site-title:hover {
+  color: #ff00003a;
 }
 .menu-list {
   line-height: $header-thickness;
@@ -58,17 +69,19 @@
     padding-right: 0.25rem;
   }
   .dropbtn {
-    background-color: #777777;
+    background-color: #ffffff00;
     color: black;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    float: right;
   }
   .dropdown {
     position: relative;
     display: inline-block;
+    float: right;
   }
   .dropdown-content {
     display: none;
@@ -85,13 +98,13 @@
     display: block;
   }
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
-    color: #ff0000;
+    background-color: #f1f1f140;
+    color: #ff000080;
   }
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .dropdown:hover .dropbtn {
-    background-color: #f1f1f1;
+    background-color: #ffffff70;
   }
 }

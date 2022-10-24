@@ -1,8 +1,15 @@
 ---
 ---
-
-$base-font-family: 'Roboto', sans-serif;
-$body-font-family: 'Roboto', sans-serif;
+@font-face {
+    font-family: rodIndie;
+    src: url("/assets/font/IndieFlower-Regular.ttf");
+}
+@font-face {
+    font-family: notIndie;
+    src: url("/assets/font/Dosis-SemiBold.ttf");
+}
+$base-font-family: 'rodIndie';
+$body-font-family: 'notIndie';
 $code-font-family: "Source Code Pro", monospace;
 
 $brand-color: black;
