@@ -1,6 +1,6 @@
 ---
 layout: post
-title: bmwGoodnight
+title: bmwStayAwhile
 author: "rod"
 categories: documentation
 tags: [documentation,sample]
