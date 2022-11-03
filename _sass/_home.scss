@@ -18,7 +18,7 @@
 }
 .featured-post h2 span {
   display: inline-block;
-  color: white;
+  color: #e21e1ea0;
   font: bold 24px/45px notIndie;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
@@ -31,59 +31,45 @@
 .featured-post h1 {
   margin: 10px;
 }
+
+
 /*
 rod added this gradient
 */
-body {
-  background-color: #7A2048;  
-  background: linear-gradient(-225deg, #f8dbd37f, #e73c7e7f, #23a6d57f, #233bd57f, #ab23d57f, #1079617f, #f08b8b7f);
-  background-size: 4000% 4000%;
-  background-repeat: no-repeat;
-  animation: gradient 10s ease infinite;
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
 }
+
+@media (prefers-reduced-motion) {
+  body {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+// desktop
+body {
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+  animation: scroll 70s linear infinite;
+  perspective: 1000px;
+}
+
+
+// mobile
 @media only screen and (max-width: 600px) {
   body {
-    background-color: #fba6cd;  
-    background: linear-gradient(-225deg, #f8dbd3, #e73c7e, #23a6d5, #233bd5, #ab23d5, #107961, #f08b8b);
-    background-size: 20% 20%;
-    animation: gradient 6s ease infinite;
+    background-color: #000000;
   }
 }
-@keyframes gradient {
-  0% {
-      background-position: 0% 10%;
-  }
-  10% {
-      background-position: 0% 20%;
-  }
-  20% {
-      background-position: 0% 30%;
-  }
-  30% {
-      background-position: 100% 40%;
-  }
-  40% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 0% 60%;
-  }
-  60% {
-      background-position: 100% 70%;
-  }
-  70% {
-      background-position: 90% 60%;
-  }
-  80% {
-      background-position: 80% 50%;
-  }
-  90% {
-      background-position: 70% 60%;
-  }
-  100% {
-      background-position: 100% 0%;
-  }
-}
+
+
 
 /*
   Pagination
