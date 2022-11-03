@@ -2,9 +2,6 @@
   font-family: rodIndie;
   src: url("/assets/font/IndieFlower-Regular.ttf");
 }
-h4 {
-  opacity: 0%;
-}
 .site-header {
   max-height: 56px;
   width: $container-width;
@@ -15,6 +12,12 @@ h4 {
   font-family: 'rodIndie';
   float: left;
   margin: 10px auto 10px; // top..bottom..right..left
+}
+@media (min-width: 700px){
+  h4 {
+    opacity: 0%;
+    width:0%;
+  }
 }
 @media (max-width: $container-width) {
   
