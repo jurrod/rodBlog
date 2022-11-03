@@ -2,25 +2,36 @@
   font-family: rodIndie;
   src: url("/assets/font/IndieFlower-Regular.ttf");
 }
+h1 {
+  background-color: #000000;
+  padding: 1px;
+}
 .post-content {
   width: 600px;
   display: block;
   margin: 10px auto 10px;
   color: #e21e1ea0;
+  background-color: #ffffff88;
+  padding: 2%;
+  outline-color: #000000;
+  outline-style:solid;
+  outline-width: 2px;
 }
 .post-date {
   display: block;
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size:0.8rem;
+  background-color: #000000;
+  padding: 1px;
 }
 .featured-image img {
   align: middle;
   margin: 5px auto 25px;
   display: block;
   max-width: 600px;
-  outline-color: #ffffff70;
-  outline-style: dotted;
+  outline-color: #000000;
+  outline-style:double;
 }
 @media (max-width: $container-width) {
   .post-content {

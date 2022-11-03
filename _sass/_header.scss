@@ -2,9 +2,11 @@
   font-family: rodIndie;
   src: url("/assets/font/IndieFlower-Regular.ttf");
 }
-
+h4 {
+  opacity: 0%;
+}
 .site-header {
-  min-height: 56px;
+  max-height: 56px;
   width: $container-width;
   position: fixed;
   background-color: #90909060;
@@ -59,6 +61,21 @@
 /*
   Responsiveness with a dropdown menu
 */
+@media (max-width: 700px) {
+.site-header img{
+  height: auto;
+  width: 0%;
+  opacity: 75%;
+  float: left;
+  display: inline-flex;
+  padding: 0;
+}
+h4 {
+  opacity: 75%;
+  padding-left: 1vw;
+  display: inline;
+} 
+}
 
 @media (min-width: $container-width) {
   .dropbtn {
@@ -94,7 +111,7 @@
   .dropdown {
     position: relative;
     display: block;
-    float: left;
+    float: right;
   }
   .dropdown-content {
     display: none;
