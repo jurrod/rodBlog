@@ -56,7 +56,9 @@ rod added this gradient
 
 // desktop
 body {
-  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+  //background: url("https://images.pexels.com/photos/11744129/pexels-photo-11744129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"), #111111;
+  background: url("https://images.pexels.com/photos/2011824/pexels-photo-2011824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"), #111111;
+  // https://images.pexels.com/photos/11744129/pexels-photo-11744129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
   animation: scroll 70s linear infinite;
   perspective: 1000px;
 }
