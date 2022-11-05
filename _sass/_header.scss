@@ -32,7 +32,7 @@
 }
 .site-header a {
   text-decoration: none;
-  color: #e21e1ea0;
+  color: #001affa0;
 }
 .site-header img{
   height: auto;
@@ -51,7 +51,7 @@
   float: left;
 }
 .site-title:hover {
-  color: #ff00003a;
+  color: #001affa0;
 }
 .menu-list {
   line-height: $header-thickness;
@@ -108,7 +108,7 @@ h4 {
   }
   .dropbtn {
     background-color: #ffffff00;
-    color: #e21e1ea0;
+    color: #001affa0;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;
@@ -137,7 +137,7 @@ h4 {
   }
   .dropdown-content a:hover {
     background-color: #f1f1f140;
-    color: #ff000080;
+    color: #001affa0;
   }
   .dropdown:hover .dropdown-content {
     display: block;
