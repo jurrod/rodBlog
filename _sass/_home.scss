@@ -18,7 +18,7 @@
 }
 .featured-post h2 span {
   display: inline-block;
-  color: #001affa0;
+  color: #4bd739;
   font: bold 24px/45px notIndie;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
@@ -56,8 +56,11 @@ rod added this gradient
 
 // desktop
 body {
+  // 11/5
+  //https://images.pexels.com/photos/7267852/pexels-photo-7267852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+  background: url("https://images.pexels.com/photos/1660193/pexels-photo-1660193.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"), #111111;
   //background: url("https://images.pexels.com/photos/11744129/pexels-photo-11744129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"), #111111;
-  background: url("https://images.pexels.com/photos/2011824/pexels-photo-2011824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"), #111111;
+  //background: url("https://images.pexels.com/photos/2011824/pexels-photo-2011824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"), #111111;
   // https://images.pexels.com/photos/11744129/pexels-photo-11744129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2
   //background: url("https://i.4cdn.org/wg/1667623684067683.jpg"), #111111;
   animation: scroll 70s linear infinite;
