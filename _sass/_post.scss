@@ -5,7 +5,46 @@
 h1 {
   background-color: #000000;
   padding: 1px;
+  animation: headerFade 5s linear infinite;
+  
 }
+
+@keyframes headerFade {
+  0% {// v
+    color: #ff0000;
+  } //r
+  10% {
+    color: #ffa600;
+  } //o
+  20% {
+    color: #88ff00;
+  } //y
+  30%{
+    color: #3cff77;
+ } //g
+  40% {
+   color: #00d9ff;
+ } // b
+  50% {
+   color: #1900ff;
+ } //i
+ 60% {
+  color: #b700ff;
+} //v
+70% {
+ color: #ff000d;
+} //v
+80% {
+ color: #00ff2a;
+} //v
+90% {
+ color: #0026ff;
+} //v
+100% {
+ color: #b99b36;
+} //v
+}
+
 article {
   background-color: #000000;
 }
@@ -13,7 +52,7 @@ article {
   width: 600px;
   display: block;
   margin: 10px auto 10px;
-  color: #ff0000;
+  color: #B10095;
   background-color: #ffffff88;
   padding: 2%;
   outline-color: #000000;
@@ -23,7 +62,7 @@ article {
 .post-date {
   display: block;
   margin-bottom: 1rem;
-  color: #4bd739;
+  color: #88C4FC;
   font-size:0.8rem;
   background-color: #000000;
   padding: 1px;

@@ -19,6 +19,7 @@
 .featured-post h2 span {
   display: inline-block;
   color: #4bd739;
+  animation: headerFade 30s ease infinite;
   font: bold 24px/45px notIndie;
   letter-spacing: -1px;
   background: rgb(0, 0, 0); /* fallback color */
@@ -30,12 +31,49 @@
 }
 .featured-post h1 {
   margin: 10px;
+  animation: headerFade 5s linear infinite;
 }
 
 
 /*
 rod added this gradient
 */
+// for post titles
+@keyframes headerFade {
+  0% {// v
+    color: #ff0000;
+  } //r
+  10% {
+    color: #ffa600;
+  } //o
+  20% {
+    color: #88ff00;
+  } //y
+  30%{
+    color: #3cff77;
+ } //g
+  40% {
+   color: #00d9ff;
+ } // b
+  50% {
+   color: #1900ff;
+ } //i
+ 60% {
+  color: #b700ff;
+} //v
+70% {
+ color: #ff000d;
+} //v
+80% {
+ color: #00ff2a;
+} //v
+90% {
+ color: #0026ff;
+} //v
+100% {
+ color: #b99b36;
+} //v
+}
 @keyframes scroll {
    100%{
     background-position:0px -3000px;

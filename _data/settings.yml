@@ -16,10 +16,11 @@ social:
 #- {icon: 'twitter', link:    'https://twitter.com/jarrodmasarik'}
 #- {icon: 'instagram', link:  'https://instagram.com/jarrod.masarik'}
 # - {icon: 'envelope', link:   'mailto:jemasarik04@gmail.com'}
-- {icon: 'image',             url: 'polaroid'}
+- {icon: 'image',             link: 'polaroid'}
 - {icon: 'linkedin', link:  'https://www.linkedin.com/in/jarrod-masarik-362372220/'}
 - {icon: 'github', link:    'https://www.github.com/jurrod'}
 - {icon: 'spotify', link:    'https://open.spotify.com/user/jurrod2001'}
+- {icon: 'home', link:    'https://www.jurrod.com'}
 
 # Customize site text
 pagination:
@@ -30,4 +31,4 @@ pagination:
 
 #related_posts: 'You may also enjoy...'
 
-post_date_prefix: 'Written on'
+post_date_prefix: '- '
