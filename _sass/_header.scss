@@ -116,7 +116,7 @@ h4 {
   }
   .dropbtn {
     background-color: #ffffff00;
-    color: #4bd739;
+    color: #000000;
     padding: 16px;
     margin-top: 4px;
     font-size: 16px;
@@ -128,14 +128,16 @@ h4 {
     position: relative;
     display: block;
     float: right;
+    padding-right: 1vw;
   }
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000000;
-    min-width: 160px;
+    background-color: #00000028;
+    //max-width: 20px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-top: 6vh;
   }
   .dropdown-content a {
     color: rgb(255, 255, 255);
@@ -144,13 +146,13 @@ h4 {
     display: block;
   }
   .dropdown-content a:hover {
-    background-color: #f1f1f140;
-    color: #4bd739  ;
+    //background-color: #f1f1f140;
+    color: #000000  ;
   }
   .dropdown:hover .dropdown-content {
     display: block;
   }
   .dropdown:hover .dropbtn {
-    background-color: #ffffff70;
+    background-color: #ffffff04; 
   }
 }
