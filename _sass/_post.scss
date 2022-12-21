@@ -3,9 +3,9 @@
   src: url("/assets/font/IndieFlower-Regular.ttf");
 }
 h1 {
-  background-color: #000000;
+  background-color: #00000000;
   padding: 1px;
-  animation: headerFade 5s linear infinite;
+  //animation: headerFade 5s linear infinite;
   
 }
 
@@ -52,19 +52,20 @@ article {
   width: 600px;
   display: block;
   margin: 10px auto 10px;
-  color: #B10095;
-  background-color: #ffffff88;
+  color: #f0f0f0;
+  background-color: #ffffffaa;
   padding: 2%;
   outline-color: #000000;
   outline-style:solid;
   outline-width: 2px;
+  padding: 2px;
 }
 .post-date {
   display: block;
   margin-bottom: 1rem;
-  color: #88C4FC;
+  color: #000000;
   font-size:0.8rem;
-  background-color: #000000;
+  background-color: #00000000;
   padding: 1px;
 }
 .featured-image img {
