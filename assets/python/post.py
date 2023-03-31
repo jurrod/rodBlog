@@ -50,16 +50,6 @@ tags: [documentation,sample]
 ---
 
 """
-# test
-# m.factorial(520)
-bigNum = 80658175170943878571660636856403766975289505440883277824000000000000
-
-# test
-def factorial(n):
-    if n <= 2:
-        return n
-    else:
-        return( n - 1 )
 
 # final file format (needs output streamed to markdown(.MD) file right QUICK!)
 # "YYYY-MM-DD-[BLOG_POST_TITLE].md"
@@ -67,7 +57,12 @@ def factorial(n):
 fileOutput = open(outFileName, "w") # will write whatever in our format
 fileOutput.write(format) # put our format header into our markdown file
 print("")
-comment = input("content: ")
-fileOutput.write(comment)
+comment = ""
+while comment != "RODISDONE":
+    comment = input("Pleae enter your input line by line (RODISDONE for submission): ")
+    if comment == "RODISDONE":
+        break
+    else:
+        fileOutput.write(comment+"  "+"\n")
 print("*********************************************************************************************************************************************")
 print("should be up!")

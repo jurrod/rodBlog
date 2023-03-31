@@ -10,7 +10,7 @@
   background-size: cover;
   position: relative;
   outline-color: #000000;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.4);
   outline-style:solid;
   outline-width: 2px;
 }
@@ -23,7 +23,7 @@
 .featured-post h2 span {
   display: inline-block;
   color: #4bd739;
-  animation: headerFade 30s ease infinite;
+  //animation: headerFade 30s ease infinite;
   font: bold 24px/45px notIndie;
   letter-spacing: -1px;
   padding: 10px;
@@ -70,6 +70,7 @@ rod added this gradient
 body {
   background-image: url("../img/pillar.jpg");
   animation: scroll 100s linear infinite;
+  background-size: 66%;
 }
 
 
