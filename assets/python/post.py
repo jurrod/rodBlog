@@ -26,6 +26,7 @@ titlePost = input("Please enter the title of today's post: ")
 outFileName = "../../_posts/"+(str(currDate)+"-"+titlePost+".md")
 #print(outFileName)
 
+"""
 # parse our directory 
 images = os.listdir("../img") # 1-D array containg fileNAMES! (not file objects, different thing entirely!)
 print("")
@@ -33,11 +34,11 @@ i = 0
 for i in range(0, len(images)):
     print(str(i)+" : "+str(images[i]))
 print("")
-imageName = int(input("Pick an image(integer) to tie to your post: "))
-currImage = images[imageName]
+#imageName = int(input("Pick an image(integer) to tie to your post: "))
+#currImage = images[imageName]
 #print(type(currImage))
 #print(currImage)
-
+"""
 
 # the format of a blog post! (we can concatenate an image onto this as well)
 format = """---
@@ -46,7 +47,6 @@ title: """+str(titlePost)+"""
 author: "rod"
 categories: documentation
 tags: [documentation,sample]
-image: """+str(currImage)+"""
 ---
 
 """
