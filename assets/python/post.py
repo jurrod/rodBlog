@@ -59,7 +59,7 @@ fileOutput.write(format) # put our format header into our markdown file
 print("")
 comment = ""
 while comment != "RODISDONE":
-    comment = input("Pleae enter your input line by line (RODISDONE for submission): ")
+    comment = input("Please enter your input line by line (RODISDONE for submission): ")
     if comment == "RODISDONE":
         break
     else:
